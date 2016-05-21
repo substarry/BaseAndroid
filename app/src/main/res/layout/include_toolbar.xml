@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Demo ToolBar layout for for BaseToolbarActivity\BaseSwipeRefreshLayoutActivity\BaseDrawerLayoutActivity
+    If your activty extends BaseToolbarActivity\BaseSwipeRefreshLayoutActivity\BaseDrawerLayoutActivity,
+    Please write a ToolBar layout like this! And include into activty layout.
+    Make sure:  Include AppBarLayout as root view, id = app_bar_layout
+                Include Toolbar as child view, id = toolbar
+
+    ****  Don't delete it ****
+
+    Created by Ling.He on 2016/5/20.
+-->
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_bar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+</android.support.design.widget.AppBarLayout>
