@@ -610,13 +610,34 @@ public class ColorPicker extends View {
 				setColor(getOldCenterColor());
 				invalidate();
 			}
-                        // Check whether the user pressed anywhere on the wheel.
-                        else if (Math.sqrt(x*x + y*y)  <= mColorWheelRadius + mColorPointerHaloRadius
-                                        && Math.sqrt(x*x + y*y) >= mColorWheelRadius - mColorPointerHaloRadius
-                                        && mTouchAnywhereOnColorWheelEnabled) {
-                                mUserIsMovingPointer = true;
-                                invalidate();
-                        }
+			// Check whether the user pressed anywhere on the wheel.
+			else if (Math.sqrt(x * x + y * y) <= mColorWheelRadius + mColorPointerHaloRadius
+					&& Math.sqrt(x * x + y * y) >= mColorWheelRadius - mColorPointerHaloRadius
+					&& mTouchAnywhereOnColorWheelEnabled) {
+				mUserIsMovingPointer = true;
+
+				mAngle = (float) Math.atan2(y - mSlopY, x - mSlopX);
+				mCenterNewColor = calculateColor(mAngle);
+				mPointerColor.setColor(mCenterNewColor);
+				setNewCenterColor(mCenterNewColor);
+
+				if (mOpacityBar != null) {
+					mOpacityBar.setColor(mColor);
+				}
+
+				if (mValueBar != null) {
+					mValueBar.setColor(mColor);
+				}
+
+				if (mSaturationBar != null) {
+					mSaturationBar.setColor(mColor);
+				}
+
+				if (mSVbar != null) {
+					mSVbar.setColor(mColor);
+				}
+				invalidate();
+			}
 			// If user did not press pointer or center, report event not handled
 			else{
 				getParent().requestDisallowInterceptTouchEvent(false);
@@ -626,10 +647,10 @@ public class ColorPicker extends View {
 		case MotionEvent.ACTION_MOVE:
 			if (mUserIsMovingPointer) {
 				mAngle = (float) Math.atan2(y - mSlopY, x - mSlopX);
-				mPointerColor.setColor(calculateColor(mAngle));
+				mCenterNewColor = calculateColor(mAngle);
+				mPointerColor.setColor(mCenterNewColor);
+				setNewCenterColor(mCenterNewColor);
 
-				setNewCenterColor(mCenterNewColor = calculateColor(mAngle));
-				
 				if (mOpacityBar != null) {
 					mOpacityBar.setColor(mColor);
 				}
