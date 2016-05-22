@@ -1,17 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Demo layout for BaseSwipeRefreshLayoutActivity or BaseToolbarActivity,
-    If your activty extends BaseToolbarActivity\BaseSwipeRefreshLayoutActivity\BaseDrawerLayoutActivity
-    Please write a layout like this!
-
-    Make sure:  Include toobar layout as child , just like @layout/include_toolbar
-                If extends BaseSwipeRefreshLayoutActivity\BaseDrawerLayoutActivity,
-                Include MultiSwipeRefreshLayout as child, id = multi_swipe_refresh_layout
-
-    ****  Don't delete it ****
-
-    Created by Ling.He on 2016/5/20.
--->
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

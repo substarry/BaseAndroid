@@ -119,9 +119,9 @@ public abstract class BaseRecyclerViewAdapter extends RecyclerView.Adapter<BaseR
         } else {
             itemLayoutId = layoutIds[viewType];
         }
-        View view = LayoutInflater.from(parent.getContext()).inflate(itemLayoutId, null);
-        view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT));
+        View view = LayoutInflater.from(parent.getContext()).inflate(itemLayoutId, parent, false);
+//        view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+//                ViewGroup.LayoutParams.WRAP_CONTENT));
         return this.onCreateRecycleViewHolder(view, viewType);
     }
 

@@ -23,7 +23,7 @@ import butterknife.Bind;
 import rx.Subscriber;
 
 
-public class MainActivityaa extends BaseSwipeRefreshLayoutActivity {
+public class MainActivity extends BaseSwipeRefreshLayoutActivity {
 
     private MediaPlayer mMediaPlayer;
     private LinearLayoutManager mLayoutManager;
