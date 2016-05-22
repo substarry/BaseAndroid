@@ -1,4 +1,4 @@
-package com.substarry.mysoundcloud.bean;
+package com.substarry.ledshoes.bean;
 
 import android.graphics.Color;
 

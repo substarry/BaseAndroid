@@ -1,9 +1,7 @@
-package com.substarry.mysoundcloud.views;
+package com.substarry.ledshoes.views;
 
 import android.graphics.Color;
-import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -12,12 +10,10 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.substarry.colorpicker.ColorPicker;
-import com.substarry.mysoundcloud.R;
-import com.substarry.mysoundcloud.adapter.BaseRecyclerViewHolder;
-import com.substarry.mysoundcloud.adapter.ChartAdapter;
-import com.substarry.mysoundcloud.adapter.ColorAdapter;
-import com.substarry.mysoundcloud.bean.ColorBean;
-import com.substarry.mysoundcloud.widget.BorderDividerItemDecoration;
+import com.substarry.ledshoes.adapter.ColorAdapter;
+import com.substarry.ledshoes.R;
+import com.substarry.ledshoes.adapter.BaseRecyclerViewHolder;
+import com.substarry.ledshoes.bean.ColorBean;
 
 import java.util.ArrayList;
 import java.util.List;

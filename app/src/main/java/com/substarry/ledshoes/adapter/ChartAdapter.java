@@ -1,11 +1,11 @@
-package com.substarry.mysoundcloud.adapter;
+package com.substarry.ledshoes.adapter;
 
 import android.content.Context;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.substarry.mysoundcloud.R;
+import com.substarry.ledshoes.R;
 
 import butterknife.Bind;
 

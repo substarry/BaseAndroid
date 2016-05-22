@@ -11,7 +11,7 @@
 
     Created by Ling.He on 2016/5/20.
 -->
-<com.substarry.mysoundcloud.widget.MultiSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.substarry.ledshoes.widget.MultiSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/multi_swipe_refresh_layout"
     android:layout_width="match_parent"
@@ -24,4 +24,4 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
     </android.support.v7.widget.RecyclerView>
-</com.substarry.mysoundcloud.widget.MultiSwipeRefreshLayout>
+</com.substarry.ledshoes.widget.MultiSwipeRefreshLayout>

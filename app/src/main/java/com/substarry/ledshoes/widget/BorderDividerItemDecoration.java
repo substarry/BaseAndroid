@@ -1,4 +1,4 @@
-package com.substarry.mysoundcloud.widget;
+package com.substarry.ledshoes.widget;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;

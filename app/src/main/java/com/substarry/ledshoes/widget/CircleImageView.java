@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.substarry.mysoundcloud.widget;
+package com.substarry.ledshoes.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -36,7 +36,7 @@ import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.substarry.mysoundcloud.R;
+import com.substarry.ledshoes.R;
 
 public class CircleImageView extends ImageView {
 

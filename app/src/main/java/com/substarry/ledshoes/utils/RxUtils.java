@@ -22,7 +22,7 @@
  * <http://www.gnu.org/philosophy/why-not-lgpl.html>.
  */
 
-package com.substarry.mysoundcloud.utils;
+package com.substarry.ledshoes.utils;
 
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;

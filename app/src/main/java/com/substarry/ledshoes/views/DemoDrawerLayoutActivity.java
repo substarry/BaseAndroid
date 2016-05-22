@@ -1,20 +1,17 @@
-package com.substarry.mysoundcloud.views;
+package com.substarry.ledshoes.views;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.substarry.mysoundcloud.R;
-import com.substarry.mysoundcloud.utils.RxUtils;
+import com.substarry.ledshoes.R;
 
 import butterknife.Bind;
-import rx.Subscriber;
 
 
 public class DemoDrawerLayoutActivity extends BaseDrawerLayoutActivity {

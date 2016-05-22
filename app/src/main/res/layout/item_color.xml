@@ -7,7 +7,7 @@
     android:background="@drawable/selector_item_clickable"
     android:padding="3dp">
 
-    <com.substarry.mysoundcloud.widget.CircleImageView
+    <com.substarry.ledshoes.widget.CircleImageView
         android:id="@+id/color_img"
         android:layout_width="45dp"
         android:layout_height="45dp"

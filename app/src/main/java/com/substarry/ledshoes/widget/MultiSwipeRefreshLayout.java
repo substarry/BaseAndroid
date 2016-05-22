@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.substarry.mysoundcloud.widget;
+package com.substarry.ledshoes.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -23,7 +23,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.AttributeSet;
 
-import com.substarry.mysoundcloud.R;
+import com.substarry.ledshoes.R;
 
 
 /**

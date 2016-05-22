@@ -1,26 +1,20 @@
-package com.substarry.mysoundcloud.views;
+package com.substarry.ledshoes.views;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
-import com.substarry.mysoundcloud.R;
-import com.substarry.mysoundcloud.adapter.BaseRecyclerViewHolder;
-import com.substarry.mysoundcloud.adapter.ChartAdapter;
-import com.substarry.mysoundcloud.utils.RxUtils;
-import com.substarry.mysoundcloud.utils.ToastUtils;
-import com.substarry.mysoundcloud.widget.BorderDividerItemDecoration;
+import com.substarry.ledshoes.adapter.BaseRecyclerViewHolder;
+import com.substarry.ledshoes.R;
+import com.substarry.ledshoes.adapter.ChartAdapter;
+import com.substarry.ledshoes.widget.BorderDividerItemDecoration;
 
 import butterknife.Bind;
-import rx.Subscriber;
 
 
 public class MainActivity extends BaseSwipeRefreshLayoutActivity {

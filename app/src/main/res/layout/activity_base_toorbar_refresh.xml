@@ -18,7 +18,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".views.BaseToolbarActivity">
+    tools:context="com.substarry.ledshoes.views.BaseToolbarActivity">
 
     <include layout="@layout/include_toolbar"/>
 

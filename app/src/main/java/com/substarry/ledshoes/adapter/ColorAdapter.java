@@ -1,11 +1,11 @@
-package com.substarry.mysoundcloud.adapter;
+package com.substarry.ledshoes.adapter;
 
 import android.content.Context;
 import android.view.View;
 
-import com.substarry.mysoundcloud.R;
-import com.substarry.mysoundcloud.bean.ColorBean;
-import com.substarry.mysoundcloud.widget.CircleImageView;
+import com.substarry.ledshoes.R;
+import com.substarry.ledshoes.bean.ColorBean;
+import com.substarry.ledshoes.widget.CircleImageView;
 
 import butterknife.Bind;
 

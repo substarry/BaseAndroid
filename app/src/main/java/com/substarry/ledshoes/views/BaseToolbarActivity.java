@@ -22,7 +22,7 @@
  * <http://www.gnu.org/philosophy/why-not-lgpl.html>.
  */
 
-package com.substarry.mysoundcloud.views;
+package com.substarry.ledshoes.views;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -32,7 +32,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.substarry.mysoundcloud.R;
+import com.substarry.ledshoes.R;
 
 import butterknife.Bind;
 

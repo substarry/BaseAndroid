@@ -22,13 +22,13 @@
  * <http://www.gnu.org/philosophy/why-not-lgpl.html>.
  */
 
-package com.substarry.mysoundcloud.views;
+package com.substarry.ledshoes.views;
 
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 
-import com.substarry.mysoundcloud.R;
-import com.substarry.mysoundcloud.widget.MultiSwipeRefreshLayout;
+import com.substarry.ledshoes.R;
+import com.substarry.ledshoes.widget.MultiSwipeRefreshLayout;
 
 import butterknife.Bind;
 

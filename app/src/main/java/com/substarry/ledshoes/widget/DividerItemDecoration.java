@@ -1,4 +1,4 @@
-package com.substarry.mysoundcloud.widget;
+package com.substarry.ledshoes.widget;
 
 import android.app.Activity;
 import android.content.Context;
