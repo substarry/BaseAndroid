@@ -59,10 +59,13 @@ public class ColorPickerActivity extends BaseToolbarActivity {
         this.mAdapter = new ColorAdapter(this);
         List<ColorBean> colorBeanList = new ArrayList<>();
 
-        colorBeanList.add(new ColorBean(0xFFFF0000));
-        colorBeanList.add(new ColorBean(0xFF00FF00));
-        colorBeanList.add(new ColorBean(0xFF0000FF));
-        colorBeanList.add(new ColorBean(0xFF000000));
+        colorBeanList.add(new ColorBean(Color.RED));
+        colorBeanList.add(new ColorBean(0xFFFF7F00));
+        colorBeanList.add(new ColorBean(Color.YELLOW));
+        colorBeanList.add(new ColorBean(Color.GREEN));
+        colorBeanList.add(new ColorBean(Color.CYAN));
+        colorBeanList.add(new ColorBean(Color.BLUE));
+        colorBeanList.add(new ColorBean(0xFFFF00FF));
 
         mAdapter.setList(colorBeanList);
         this.mAdapter.setOnItemClickListener(new BaseRecyclerViewHolder.OnItemClickListener() {
@@ -90,6 +93,7 @@ public class ColorPickerActivity extends BaseToolbarActivity {
         colorPicker.setOnColorSelectedListener(new ColorPicker.OnColorSelectedListener() {
             @Override
             public void onColorSelected(int color) {
+                Log.d("HELING_DEBUG","onColorSelected = " +color);
                 int current = mAdapter.getEnabledPosition();
                 if(current >= 0 && current < mAdapter.getItemCount()){
                     ((ColorBean)mAdapter.getItem(current)).setRgbColor(color);

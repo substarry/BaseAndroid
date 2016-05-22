@@ -18,4 +18,6 @@
     <!-- divider, alpha: 12% -->
     <color name="divider_dark">#1F000000</color>
     <color name="divider_white">#1FFFFFFF</color>
+
+    <color name="dack_enabled">#50000000</color>
 </resources>

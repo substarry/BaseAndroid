@@ -54,7 +54,7 @@ public class ColorAdapter extends BaseRecyclerViewAdapter {
         ChartViewHolder holder = (ChartViewHolder) viewHolder;
         ColorBean colorBean = getItem(position);
         holder.colorImg.setFillColor(colorBean.getRgbColor());
-        holder.colorImg.setBorderColorResource(position == enabledPosition ? R.color.divider_dark : android.R.color.transparent);
+        holder.colorImg.setBorderColorResource(position == enabledPosition ? R.color.dack_enabled : android.R.color.transparent);
 
     }
 
